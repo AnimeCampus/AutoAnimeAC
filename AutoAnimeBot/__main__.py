@@ -23,7 +23,7 @@ async def start(bot, message: Message):
 async def logs(bot, message: Message):
     await message.reply_document(
         "logs.txt",
-        caption="AutoAnimeBot Logs, Send this to @TechZBots_Support if you need help",
+        caption="AutoAnimeBot Logs, Send this to @Index_AC if you need help",
     )
 
 
