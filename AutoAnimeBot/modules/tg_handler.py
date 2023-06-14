@@ -157,7 +157,7 @@ async def channel_handler(video_id, anime_id, name, ep_num, quality):
             )
             await app.send_sticker(
                 app.INDEX_CHANNEL_ID,
-                "CAACAgUAAx0CcjH6PAACnYlkdkNXvPB3b0zh2YT5_zIZTRw-2wAC6wkAAgwouFead-o7x6Oibi8E",
+                "CAACAgUAAxkBAAEUmDtkHHayrNb6EFmmlzQlF3wR03QY2AACGgYAApROQVYbFOqQoyJzAy8E",
             )
 
             dl_id = int(dl.id)
