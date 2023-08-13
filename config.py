@@ -9,7 +9,7 @@ elif os.path.exists("sample.env"):
 API_ID = os.getenv("API_ID","16743442")
 API_HASH = os.getenv("API_HASH","12bbd720f4097ba7713c5e40a11dfd2a")
 BOT_TOKEN = os.getenv("BOT_TOKEN","6065321925:AAEWc4Y5PDWTcE4jUBYIAL6s1OzlnuaWWmU")
-MONGO_DB_URI = os.getenv("MONGO_DB_URI","mongodb+srv://sonu55:sonu55@cluster0.vqztrvk.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = os.getenv("MONGO_DB_URI","mongodb+srv://vortex:yNNrzMsR0BAiI4iY@cluster0.8sizo.mongodb.net/?retryWrites=true&w=majority")
 STATUS_MSG_ID = os.getenv("STATUS_MSG_ID","3")
 SCHEDULE_MSG_ID = os.getenv("SCHEDULE_MSG_ID","2")
 CHANNEL_TITLE = os.getenv("CHANNEL_TITLE", "@Index_AC")
