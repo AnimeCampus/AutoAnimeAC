@@ -10,7 +10,7 @@ logger = LOGGER("Parser")
 
 async def auto_parser(TECHZ_API_KEY, app):
     Gogo = TechZApi.Gogo(TECHZ_API_KEY)
-    Gogo.base = "api3.techzbots.live"
+    Gogo.base = "http://api3.techzbots.live/"
 
     while True:
         await app.update_status("Scrapping Animes...")
